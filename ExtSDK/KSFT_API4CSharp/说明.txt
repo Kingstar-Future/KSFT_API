@@ -1,0 +1,21 @@
+﻿一、概述
+    KSFT.dll
+    将非托管C++库转换为托管库，供.Net程序调用。包括行情接口和交易接口。
+    Struct.h头文件修改自海风版C#的Struct.cs文件，非常感谢！
+    CSharpMdTest
+    C#行情接口测试实例，跟上期技术官方提供的例子一致
+    CSTraderTest
+    C#交易接口测试，跟上期技术官方提供的例子一致
+二、开发平台
+    编译环境：VS2010
+三、版本依赖
+    KSFT_API最低版本：V2.1.30308.1
+四、获取KSFT_API版本途径
+    QQ群：86719207；
+    百度网盘：http://pan.baidu.com/disk/home#dir
+五、技术支持
+    KSFT_API技术论坛：http://www.oceantribe.org/vb/forumdisplay.php?f=55
+    江梅萍  QQ：337564629  
+    沈明明  QQ：395174192  Tel：021-3895 4588 - 3719
+
+

@@ -1,0 +1,113 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+	<title>RspQryTransferBank Delegate (KSFT)</title>
+	<link href="../style.css" rel="stylesheet" type="text/css" />
+	<script src="../scripts.js" type="text/javascript"></script>
+	<style type="text/css">
+		.csharp { display: inline; }
+		.vb { display: none; }
+		.cpp { display: none; }
+	</style>
+</head>
+<body id="top">
+
+<div id="header">
+<p id="title">A ForgeDoc Documented Class Library</p>
+<h1><span class="csharp">RspQryTransferBank</span><span class="vb">RspQryTransferBank</span><span class="cpp">RspQryTransferBank</span> Delegate</h1>
+<div id="functions" style="display:none"><a id="collapseAll" href="javascript:collapseAll();">Collapse All</a><a id="expandAll" href="javascript:expandAll();">Expand All</a></div>
+</div>
+<div id="content">
+<div id="contentTop">
+<div id="summary">
+<div>
+请求查询转帐银行响应
+</div>
+</div>
+
+<p>
+	<b>Namespace:</b> <a href="KSFT.html"><span class="csharp">KSFT</span><span class="vb">KSFT</span><span class="cpp">KSFT</span></a><br/>
+	<b>Assembly:</b> KSFT (in KSFT.dll)
+</p>
+
+<h2 id="syntax">Syntax</h2>
+<div>
+<div id="syntaxPanel">
+<div class="code-block default" lang="x-csharp">
+<div class="code-header"><span class="title">C#</span></div>
+<div class="code"><p><span class="keyword">public</span>&nbsp;<span class="keyword">delegate</span>&nbsp;<span class="keyword">void</span>&nbsp;<span class="type">RspQryTransferBank</span>&#65279;(</p>
+<div>
+<p><a class="type" href="KSFT.ThostFtdcTransferBankField.html">ThostFtdcTransferBankField</a>&nbsp;pTransferBank,</p>
+<p><a class="type" href="KSFT.ThostFtdcRspInfoField.html">ThostFtdcRspInfoField</a>&nbsp;pRspInfo,</p>
+<p><span class="keyword">int</span>&nbsp;nRequestID,</p>
+<p>[<a class="type" href="http://msdn.microsoft.com/en-us/library/system.runtime.interopservices.marshalasattribute">MarshalAs</a>&#65279;(<a class="type" href="http://msdn.microsoft.com/en-us/library/system.runtime.interopservices.unmanagedtype">UnmanagedType</a>.U1, ArraySubType&nbsp;=&nbsp;(<a class="type" href="http://msdn.microsoft.com/en-us/library/system.runtime.interopservices.unmanagedtype">UnmanagedType</a>)&nbsp;0, SizeParamIndex&nbsp;=&nbsp;0, SizeConst&nbsp;=&nbsp;0, IidParameterIndex&nbsp;=&nbsp;0, SafeArraySubType&nbsp;=&nbsp;<a class="type" href="http://msdn.microsoft.com/en-us/library/system.runtime.interopservices.varenum">VarEnum</a>.VT_EMPTY)]&nbsp;<span class="keyword">bool</span>&nbsp;bIsLast</p>
+</div>
+<p>)</p>
+</div>
+</div>
+<div class="code-block" lang="x-vb">
+<div class="code-header"><span class="title">VB</span></div>
+<div class="code"><p><span class="keyword">Public</span>&nbsp;<span class="keyword">Delegate</span>&nbsp;<span class="keyword">Sub</span>&nbsp;<span class="type">RspQryTransferBank</span>&#65279;(&nbsp;_</p>
+<div>
+<p>pTransferBank <span class="keyword">As</span>&nbsp;<a class="type" href="KSFT.ThostFtdcTransferBankField.html">ThostFtdcTransferBankField</a>,&nbsp;_</p>
+<p>pRspInfo <span class="keyword">As</span>&nbsp;<a class="type" href="KSFT.ThostFtdcRspInfoField.html">ThostFtdcRspInfoField</a>,&nbsp;_</p>
+<p>nRequestID <span class="keyword">As</span>&nbsp;<span class="keyword">Integer</span>,&nbsp;_</p>
+<p>&lt;<a class="type" href="http://msdn.microsoft.com/en-us/library/system.runtime.interopservices.marshalasattribute">MarshalAs</a>&#65279;(<a class="type" href="http://msdn.microsoft.com/en-us/library/system.runtime.interopservices.unmanagedtype">UnmanagedType</a>.U1, ArraySubType&nbsp;:=&nbsp;<span class="keyword">DirectCast</span>&#65279;(0,&nbsp;<a class="type" href="http://msdn.microsoft.com/en-us/library/system.runtime.interopservices.unmanagedtype">UnmanagedType</a>), SizeParamIndex&nbsp;:=&nbsp;0S, SizeConst&nbsp;:=&nbsp;0, IidParameterIndex&nbsp;:=&nbsp;0, SafeArraySubType&nbsp;:=&nbsp;<a class="type" href="http://msdn.microsoft.com/en-us/library/system.runtime.interopservices.varenum">VarEnum</a>.VT_EMPTY)&#65279;&gt;&nbsp;bIsLast <span class="keyword">As</span>&nbsp;<span class="keyword">Boolean</span>&nbsp;_</p>
+</div>
+<p>)</p>
+</div>
+</div>
+<div class="code-block" lang="x-cpp">
+<div class="code-header"><span class="title">C++</span></div>
+<div class="code"><p><span class="keyword">public</span>&nbsp;<span class="keyword">delegate</span>&nbsp;<span class="keyword">void</span>&nbsp;<span class="type">RspQryTransferBank</span>&#65279;(</p>
+<div>
+<p><a class="type" href="KSFT.ThostFtdcTransferBankField.html">ThostFtdcTransferBankField</a>^ pTransferBank,</p>
+<p><a class="type" href="KSFT.ThostFtdcRspInfoField.html">ThostFtdcRspInfoField</a>^ pRspInfo,</p>
+<p><span class="keyword">int</span> nRequestID,</p>
+<p>[<a class="type" href="http://msdn.microsoft.com/en-us/library/system.runtime.interopservices.marshalasattribute">MarshalAs</a>&#65279;(<a class="type" href="http://msdn.microsoft.com/en-us/library/system.runtime.interopservices.unmanagedtype">UnmanagedType</a>::U1, ArraySubType&nbsp;=&nbsp;(<a class="type" href="http://msdn.microsoft.com/en-us/library/system.runtime.interopservices.unmanagedtype">UnmanagedType</a>)&nbsp;0, SizeParamIndex&nbsp;=&nbsp;0, SizeConst&nbsp;=&nbsp;0, IidParameterIndex&nbsp;=&nbsp;0, SafeArraySubType&nbsp;=&nbsp;<a class="type" href="http://msdn.microsoft.com/en-us/library/system.runtime.interopservices.varenum">VarEnum</a>::VT_EMPTY)]&nbsp;<span class="keyword">bool</span> bIsLast</p>
+</div>
+<p>)</p>
+</div>
+</div>
+</div>
+<h3>Parameters</h3><div class="param">
+pTransferBank
+<div class="description">
+Type: <a href="KSFT.ThostFtdcTransferBankField.html"><span class="csharp">KSFT.ThostFtdcTransferBankField</span><span class="vb">KSFT.ThostFtdcTransferBankField</span><span class="cpp">KSFT::ThostFtdcTransferBankField</span></a><br/>
+
+</div>
+</div>
+<div class="param">
+pRspInfo
+<div class="description">
+Type: <a href="KSFT.ThostFtdcRspInfoField.html"><span class="csharp">KSFT.ThostFtdcRspInfoField</span><span class="vb">KSFT.ThostFtdcRspInfoField</span><span class="cpp">KSFT::ThostFtdcRspInfoField</span></a><br/>
+
+</div>
+</div>
+<div class="param">
+nRequestID
+<div class="description">
+Type: <a href="http://msdn.microsoft.com/en-us/library/system.int32"><span class="csharp">System.Int32</span><span class="vb">System.Int32</span><span class="cpp">System::Int32</span></a><br/>
+
+</div>
+</div>
+<div class="param">
+bIsLast
+<div class="description">
+Type: <a href="http://msdn.microsoft.com/en-us/library/system.boolean"><span class="csharp">System.Boolean</span><span class="vb">System.Boolean</span><span class="cpp">System::Boolean</span></a><br/>
+
+</div>
+</div>
+</div>
+
+<h2 id="seealso">See Also</h2>
+<div>
+	<div><a href="KSFT.html"><span class="csharp">KSFT</span><span class="vb">KSFT</span><span class="cpp">KSFT</span> Namespace</a></div>
+</div>
+
+</div>
+</div>
+<script type="text/javascript">init();</script>
+</body>
+</html>

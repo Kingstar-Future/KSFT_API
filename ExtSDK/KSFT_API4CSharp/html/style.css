@@ -1,0 +1,584 @@
+/*
+YUI 3.4.1 (build 4118)
+Copyright 2011 Yahoo! Inc. All rights reserved.
+Licensed under the BSD License.
+http://yuilibrary.com/license/
+*/
+html{color:#000;background:#FFF}body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,textarea,p,blockquote,th,td{margin:0;padding:0}table{border-collapse:collapse;border-spacing:0}fieldset,img{border:0}address,caption,cite,code,dfn,em,strong,th,var{font-style:normal;font-weight:normal}ol,ul{list-style:none}caption,th{text-align:left}h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal}q:before,q:after{content:''}abbr,acronym{border:0;font-variant:normal}sup{vertical-align:text-top}sub{vertical-align:text-bottom}input,textarea,select{font-family:inherit;font-size:inherit;font-weight:inherit}input,textarea,select{font-size:100%}legend{color:#000}
+
+html
+{
+	overflow: auto;
+}
+body
+{
+	font-size: 13px;
+	font-family: 'Segoe UI', 'Lucida Grande', Verdana, Arial;
+}
+
+/* ----------------------------------------------- */
+/*   Main sections                                 */
+/* ----------------------------------------------- */
+
+#title
+{
+	margin: 0px;
+	padding: 10px 0px 0px 21px;
+}
+#functions
+{
+	border-bottom: 1px solid #E5E5E5;
+	padding: 2px 8px 8px 15px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+#functions a
+{
+	color: #1364C4;
+}
+#headingLinks span
+{
+	margin-right: 10px;
+	padding-left: 10px;
+	border-left: 1px solid #BDBDBD;
+}
+#headingLinks span:first-child
+{
+	border-left: none;
+}
+#collapseAll,
+#expandAll
+{
+	display: inline-block; /* IE7 hack */
+	margin-left: 7px;
+	margin-right: 10px;
+	padding-left: 14px;
+}
+#collapseAll
+{
+	background: Transparent url('images/collapse_all.png') no-repeat 0px 5px;
+}
+#expandAll
+{
+	background: Transparent url('images/expand_all.png') no-repeat 0px 5px;
+}
+div#top,
+#contentTop
+{
+	padding: 20px;
+}
+#footer
+{
+	margin-top: 20px;
+	padding-top: 10px;
+	border-top: 1px solid #BBB;
+}
+
+/* ----------------------------------------------- */
+/*   Common elements                               */
+/* ----------------------------------------------- */
+
+h1, h2, h3
+{
+	color: #3F529C;
+	font-weight: bold;
+}
+h1
+{
+	font-size: 23px;
+	margin-left: 20px;
+	padding-bottom: 5px;
+}
+h2
+{
+	font-size: 20px;
+	margin: 15px 0px;
+}
+h2:first-child
+{
+	margin-top: 0px;
+}
+h2.scripted
+{
+	border-bottom: 1px solid #E5E5E5;
+	position: relative;
+	top: -6px;
+}
+h2.scripted span
+{
+	border-bottom: 1px solid White;
+	position: relative;
+	top: 6px;
+}
+h2 .open
+{
+	padding-left: 15px;
+	background: White url('images/open.png') no-repeat left bottom;
+}
+h2 .closed
+{
+	padding-left: 15px;
+	background: White url('images/closed.png') no-repeat left bottom;
+}
+h3
+{
+	font-size: 13px;
+	margin: 13px 0px;
+}
+
+div.indented
+{
+	margin-left: 15px;
+}
+
+p
+{
+	margin: 10px 0px;
+}
+p:first-child
+{
+	margin-top: 0px;
+}
+p:last-child
+{
+	margin-bottom: 0px;
+}
+a
+{
+	color: #1364C4;
+	text-decoration: none;
+}
+a:visited
+{
+	color: #960BB4;
+}
+a:hover
+{
+	text-decoration: underline;
+}
+
+/* ----------------------------------------------- */
+/*   Syntax block                                  */
+/* ----------------------------------------------- */
+
+#syntaxPanel
+{
+	margin-bottom: 25px;
+}
+.code
+{
+	clear: both;
+	overflow: auto;
+	margin-top: 15px;
+	padding: 13px;
+	border: 1px solid #BBB;
+	font-size: 13px;
+	font-family: Consolas, 'Lucida Console', 'Courier New', Courier, Monospace;
+}
+.code-panel
+{
+	margin-top: 15px;
+	margin-bottom: 20px;
+	overflow: auto;
+}
+.code-panel .code
+{
+	margin-top: 0px;
+}
+.code-block
+{
+	margin-top: 5px;
+	margin-bottom: 20px;
+	overflow: auto;
+}
+.code-header .title
+{
+	float: left;
+	color: #E66A38;
+	background-color: White;
+	font-weight: bold;
+	position: relative;
+	top: 8px;
+	left: 7px;
+	padding: 0px 8px;
+}
+.code-block .code
+{
+	padding-top: 15px;
+}
+.copy-code
+{
+	float: right;
+	position: relative;
+	top: 8px;
+	right: 7px;
+	padding-left: 28px;
+	padding-right: 7px;
+	background: White url('images/copy.png') no-repeat 8px 2px;
+}
+.code-panel .copy-code
+{
+	top: 12px;
+}
+.tab
+{
+	float: left;
+	padding: 1px 8px;
+	font-weight: bold;
+	border: 1px solid #BBB;
+	border-left: none;
+	background-color: #EFF5FF;
+}
+.tab-container
+{
+	float: left;
+	position: relative;
+	top: 1px;
+	z-index: 1;
+}
+.tab:first-child
+{
+	border-left: 1px solid #BBB;
+	border-top-left-radius: 4px;
+}
+.tab:last-child
+{
+	border-top-right-radius: 4px;
+}
+.tab span
+{
+	color: #1364C4;
+}
+.tab span:hover
+{
+	color: #E66A38;
+	cursor: pointer;
+}
+.active
+{
+	padding-bottom: 2px;
+	color: #E66A38;
+	background-color: White;
+	border-bottom: none;
+}
+.code div
+{
+	margin-left: 28px;
+}
+.code p
+{
+	margin: 0px;
+	padding-left: 28px;
+	text-indent: -28px;
+}
+.code .keyword
+{
+	color: Blue;
+}
+.code .char,
+.code .string
+{
+	color: #A31515;
+}
+.code .type,
+.code a.type:visited
+{
+	color: #2B91AF;
+}
+.code .comment
+{
+	color: Green;
+}
+.code .preprocessor
+{
+	color: Blue;
+}
+.code .xml-delimiter
+{
+	color: Blue;
+}
+.code .xml-tagname
+{
+	color: #A31515;
+}
+.code .xml-attrname
+{
+	color: Red;
+}
+.code .xml-attrvalue
+{
+	color: Blue;
+}
+.code .xml-attrquote
+{
+	color: Black;
+}
+.code .xml-comment
+{
+	color: Green;
+}
+.code .xml-cdata
+{
+	color: Gray;
+}
+
+/* ----------------------------------------------- */
+/*   Specific elements                             */
+/* ----------------------------------------------- */
+
+ul
+{
+	margin-left: 40px;
+	list-style: disc url('images/disk.gif') outside;
+}
+ol
+{
+	margin-left: 40px;
+	list-style: decimal outside;
+}
+li
+{
+	margin: 10px 0px;
+}
+
+table
+{
+	width: 100%;
+	border: 1px solid #BBB;
+}
+table th, table td
+{
+	border: 1px solid #BBB;
+	padding: 5px;
+}
+table th
+{
+	border: 1px solid #BBB;
+	background-color: #E5E5E5;
+	font-size: 14px;
+}
+table td
+{
+	vertical-align: top;
+}
+table.members th:first-child
+{
+	width: 40px;
+}
+table.enum-members th:first-child
+{
+	width: 20px;
+}
+table.members th, table.members td,
+table.enum-members th, table.enum-members td,
+table.namespaces th, table.namespaces td
+{
+	padding-top: 7px;
+	padding-bottom: 7px;
+	vertical-align: middle;
+}
+td.member-name
+{
+}
+table.exceptions td:first-child
+{
+	width: 20%;
+}
+table.exceptions .condition
+{
+	border-top: dashed 1px #BBB;
+	margin-top: 8px;
+	padding-top: 7px;
+}
+table.exceptions .condition:first-child
+{
+	border-top: none;
+	margin-top: 0px;
+	padding-top: 0px;
+}
+table.list
+{
+	margin: 10px 0px;
+}
+table.list:first-child
+{
+	margin-top: 0px;
+}
+table.list:last-child
+{
+	margin-bottom: 0px;
+}
+table.list th, table.list td
+{
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.langword
+{
+	font-weight: bold;
+}
+
+.param,
+.typeparam
+{
+	font-style: italic;
+	margin-bottom: 13px;
+}
+.param .description,
+.typeparam .description
+{
+	font-style: normal;
+	margin: 13px 0px 0px 40px;
+}
+
+.paramref,
+.typeparamref
+{
+	font-style: italic;
+}
+
+.self-link,
+.missing-link
+{
+	font-weight: bold;
+}
+.missing-doc
+{
+	color: #DC143C;
+	font-weight: bold;
+}
+
+.preliminary
+{
+	color: Red;
+}
+.obsolete
+{
+	font-weight: bold;
+}
+
+#syntax + div
+{
+	margin-bottom: 25px;
+}
+#showInherited
+{
+	padding-left: 20px;
+	background: url('images/lightbulb_on.png') no-repeat;
+}
+#hideInherited
+{
+	padding-left: 20px;
+	background: url('images/lightbulb_off.png') no-repeat;
+}
+#showInherited a:visited,
+#hideInherited a:visited
+{
+	color: #1364C4;
+}
+
+/* ----------------------------------------------- */
+/*   Member icons                                  */
+/* ----------------------------------------------- */
+
+.icon
+{
+	width: 16px;
+	height: 16px;
+	display: inline-block;
+	background-image: url('images/icons.png');
+	background-repeat: no-repeat;
+}
+
+.public-class    { background-position: 0px   0px; }
+.protint-class   { background-position: 0px -16px; }
+.protected-class { background-position: 0px -32px; }
+.internal-class  { background-position: 0px -48px; }
+.private-class   { background-position: 0px -64px; }
+
+.public-interface    { background-position: -16px   0px; }
+.protint-interface   { background-position: -16px -16px; }
+.protected-interface { background-position: -16px -32px; }
+.internal-interface  { background-position: -16px -48px; }
+.private-interface   { background-position: -16px -64px; }
+
+.public-structure    { background-position: -32px   0px; }
+.protint-structure   { background-position: -32px -16px; }
+.protected-structure { background-position: -32px -32px; }
+.internal-structure  { background-position: -32px -48px; }
+.private-structure   { background-position: -32px -64px; }
+
+.public-delegate    { background-position: -48px   0px; }
+.protint-delegate   { background-position: -48px -16px; }
+.protected-delegate { background-position: -48px -32px; }
+.internal-delegate  { background-position: -48px -48px; }
+.private-delegate   { background-position: -48px -64px; }
+
+.public-enum    { background-position: -64px   0px; }
+.protint-enum   { background-position: -64px -16px; }
+.protected-enum { background-position: -64px -32px; }
+.internal-enum  { background-position: -64px -48px; }
+.private-enum   { background-position: -64px -64px; }
+
+.public-field    { background-position: -80px   0px; }
+.protint-field   { background-position: -80px -16px; }
+.protected-field { background-position: -80px -32px; }
+.internal-field  { background-position: -80px -48px; }
+.private-field   { background-position: -80px -64px; }
+
+.public-constant    { background-position: -96px   0px; }
+.protint-constant   { background-position: -96px -16px; }
+.protected-constant { background-position: -96px -32px; }
+.internal-constant  { background-position: -96px -48px; }
+.private-constant   { background-position: -96px -64px; }
+
+.public-method    { background-position: -112px   0px; }
+.protint-method   { background-position: -112px -16px; }
+.protected-method { background-position: -112px -32px; }
+.internal-method  { background-position: -112px -48px; }
+.private-method   { background-position: -112px -64px; }
+
+.public-constructor    { background-position: -128px   0px; }
+.protint-constructor   { background-position: -128px -16px; }
+.protected-constructor { background-position: -128px -32px; }
+.internal-constructor  { background-position: -128px -48px; }
+.private-constructor   { background-position: -128px -64px; }
+
+.public-operator    { background-position: -144px   0px; }
+.protint-operator   { background-position: -144px -16px; }
+.protected-operator { background-position: -144px -32px; }
+.internal-operator  { background-position: -144px -48px; }
+.private-operator   { background-position: -144px -64px; }
+
+.public-property    { background-position: -160px   0px; }
+.protint-property   { background-position: -160px -16px; }
+.protected-property { background-position: -160px -32px; }
+.internal-property  { background-position: -160px -48px; }
+.private-property   { background-position: -160px -64px; }
+
+.public-readonly    { background-position: -176px   0px; }
+.protint-readonly   { background-position: -176px -16px; }
+.protected-readonly { background-position: -176px -32px; }
+.internal-readonly  { background-position: -176px -48px; }
+.private-readonly   { background-position: -176px -64px; }
+
+.public-writeonly    { background-position: -192px   0px; }
+.protint-writeonly   { background-position: -192px -16px; }
+.protected-writeonly { background-position: -192px -32px; }
+.internal-writeonly  { background-position: -192px -48px; }
+.private-writeonly   { background-position: -192px -64px; }
+
+.public-event    { background-position: -208px   0px; }
+.protint-event   { background-position: -208px -16px; }
+.protected-event { background-position: -208px -32px; }
+.internal-event  { background-position: -208px -48px; }
+.private-event   { background-position: -208px -64px; }
+
+.public-extension   { background-position: -224px 0px; }
+.internal-extension { background-position: -224px -48px; }
+.private-extension  { background-position: -224px -64px; }
+
+.static      { background-position: -224px -16px; }
+.enum-member { background-position: -224px -32px; }
