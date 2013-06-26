@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="KSFT">
+</Property><Property Name="Solution File" Value="C:\mingming\周边产品\第三方接口\新接口\KSFT Api 相关资料\KSFTforCSharp\KSFT\KSFT.sln">
+</Property><Property Name="Date" Value="2013年3月1日">
+</Property><Property Name="Time" Value="16:17">
+</Property></Properties><Event ErrorLevel="1" Project="KSFT" Source="KSFT\KSFT.vcproj" Description="VCWebServiceProxyGeneratorTool is no longer supported. The tool has been removed from your project settings.">
+</Event><Event ErrorLevel="1" Project="KSFT" Source="KSFT\KSFT.vcproj" Description="Attribute 'CopyLocalDependencies' of 'AssemblyReference' is not supported in this version and has been removed during conversion.">
+</Event><Event ErrorLevel="1" Project="KSFT" Source="KSFT\KSFT.vcproj" Description="Attribute 'UseDependenciesInBuild' of 'AssemblyReference' is not supported in this version and has been removed during conversion.">
+</Event><Event ErrorLevel="3" Project="KSFT" Source="KSFT\KSFT.vcproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="CSharpMdTest" Source="CSharpMDTest\CSharpMdTest.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="CSharpMdTest" Source="CSharpMDTest\CSharpMdTest.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="CSTraderTest" Source="CSTraderTest\CSTraderTest.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="CSTraderTest" Source="CSTraderTest\CSTraderTest.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="KSFT.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="KSFT.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="CSharpMdTest" Source="CSharpMDTest\CSharpMdTest.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event><Event ErrorLevel="0" Project="CSTraderTest" Source="CSTraderTest\CSTraderTest.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event></UpgradeLog>
