@@ -1,0 +1,29 @@
+一、概述
+    KSFT_API4Py项目为包装金仕达接口为Windows/Linux平台下Python动态库式样。
+    _Generate
+    解析.h和库文件的Python代码
+    _KSApi_Md
+    生成Python动态链接库的行情文件
+    _KSApi_Trader
+    生成Python动态链接库的交易文件
+    KSFT_API
+    要封装的.h和库文件
+    Run
+    KSFT_API的Python的行情及交易接口及实例
+二、开发平台
+    编译环境：VS2005
+    Python版本：Python2.6
+三、版本依赖
+    KSFT_API最低版本：V2.1.30308.3
+    KSFT_API4Py当前win版本：1.0.30718.1
+    KSFT_API4Py当前linux版本：1.0.30718.2
+四、获取KSFT_API版本途径
+    QQ群：86719207；
+    Github：https://github.com/Kingstar-Future/KSFT_API
+五、技术支持
+    KSFT_API技术论坛：http://www.oceantribe.org/vb/forumdisplay.php?f=55
+    刘艳云  QQ：515243968  
+    沈明明  QQ：395174192  Tel：021-3895 4588 - 3719
+六、修订历史记录
+    2013/7/18  Py接口公测
+    2013/8/14  支持linux平台
