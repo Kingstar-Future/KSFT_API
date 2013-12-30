@@ -1,0 +1,37 @@
+﻿<!DOCTYPE HTML>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>DemoPage@KSFT_API4Spy</title>
+</head>
+<body>
+    <p>Please input any key</p>
+    <form name="spy_get_GET" method="GET" action="/action/spy_get">
+        Key <input type="text" name="key" value=''>
+        <input type="submit" name="submit" value="spy_get(GET)">
+    </form>
+    <form name="spy_get_POST" method="POST" action="/action/spy_get">
+        Key <input type="text" name="key" value=''>
+        <input type="submit" name="submit" value="spy_get(POST)">
+    </form>
+
+    <form name="spy_get" method="GET" action="/action/spy_list">
+        Key <input type="text" name="key" value=''>
+        <input type="submit" name="submit" value="spy_list">
+    </form>
+
+    <form name="spy_get" method="GET" action="/action/spy_set">
+        Key <input type="text" name="key" value=''><br />
+        Value <input type="text" name="value" value=''>
+        <input type="submit" name="submit" value="spy_set">
+    </form>
+
+    <form name="spy_get" method="GET" action="/action/sessionTest">
+        <input type="submit" name="submit" value="显示SessionID">
+    </form>
+
+    <form name="spy_get" method="GET" action="/action/SpyGetAll">
+        <input type="submit" name="submit" value="显示所有节点信息数据">
+    </form>
+
+</body>
+</html>
