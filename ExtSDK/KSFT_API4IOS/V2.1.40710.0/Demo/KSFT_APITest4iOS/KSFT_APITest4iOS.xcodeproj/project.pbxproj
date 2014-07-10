@@ -1,0 +1,533 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7584B1C51965293B008742E7 /* libkslkc.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7584B1C31965293B008742E7 /* libkslkc.a */; };
+		7584B1C61965293B008742E7 /* libksft.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7584B1C41965293B008742E7 /* libksft.a */; };
+		75F7F4C1195C1BA30008DDD2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75F7F4C0195C1BA30008DDD2 /* Foundation.framework */; };
+		75F7F4C3195C1BA30008DDD2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75F7F4C2195C1BA30008DDD2 /* CoreGraphics.framework */; };
+		75F7F4C5195C1BA30008DDD2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75F7F4C4195C1BA30008DDD2 /* UIKit.framework */; };
+		75F7F4CB195C1BA30008DDD2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 75F7F4C9195C1BA30008DDD2 /* InfoPlist.strings */; };
+		75F7F4CD195C1BA30008DDD2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 75F7F4CC195C1BA30008DDD2 /* main.m */; };
+		75F7F4D1195C1BA30008DDD2 /* KSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 75F7F4D0195C1BA30008DDD2 /* KSAppDelegate.m */; };
+		75F7F4D3195C1BA30008DDD2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 75F7F4D2195C1BA30008DDD2 /* Images.xcassets */; };
+		75F7F4DA195C1BA40008DDD2 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75F7F4D9195C1BA40008DDD2 /* XCTest.framework */; };
+		75F7F4DB195C1BA40008DDD2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75F7F4C0195C1BA30008DDD2 /* Foundation.framework */; };
+		75F7F4DC195C1BA40008DDD2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75F7F4C4195C1BA30008DDD2 /* UIKit.framework */; };
+		75F7F4E4195C1BA40008DDD2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 75F7F4E2195C1BA40008DDD2 /* InfoPlist.strings */; };
+		75F7F4E6195C1BA40008DDD2 /* KSFT_APITest4iOSTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 75F7F4E5195C1BA40008DDD2 /* KSFT_APITest4iOSTests.m */; };
+		75F7F502195C1C0E0008DDD2 /* event.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 75F7F4FB195C1C0E0008DDD2 /* event.cpp */; };
+		75F7F503195C1C0E0008DDD2 /* KSViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 75F7F4FE195C1C0E0008DDD2 /* KSViewController.mm */; };
+		75F7F504195C1C0E0008DDD2 /* KSViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 75F7F4FF195C1C0E0008DDD2 /* KSViewController.xib */; };
+		75F7F50B195C1D930008DDD2 /* libstdc++.6.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 75F7F509195C1D930008DDD2 /* libstdc++.6.dylib */; };
+		75F7F50C195C1D930008DDD2 /* libstdc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 75F7F50A195C1D930008DDD2 /* libstdc++.dylib */; };
+		75F7F50E195C1E790008DDD2 /* KSInterB2C.lkc in Resources */ = {isa = PBXBuildFile; fileRef = 75F7F50D195C1E790008DDD2 /* KSInterB2C.lkc */; };
+		75F7F51A195C20B80008DDD2 /* KSInterB2C.lkc in Resources */ = {isa = PBXBuildFile; fileRef = 75F7F519195C20B80008DDD2 /* KSInterB2C.lkc */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		75F7F4DD195C1BA40008DDD2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 75F7F4B5195C1BA30008DDD2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 75F7F4BC195C1BA30008DDD2;
+			remoteInfo = KSFT_APITest4iOS;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7584B1C31965293B008742E7 /* libkslkc.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libkslkc.a; path = "../../iOS-Simulator/libkslkc.a"; sourceTree = "<group>"; };
+		7584B1C41965293B008742E7 /* libksft.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libksft.a; path = "../../iOS-Simulator/libksft.a"; sourceTree = "<group>"; };
+		75F7F4BD195C1BA30008DDD2 /* KSFT_APITest4iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KSFT_APITest4iOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		75F7F4C0195C1BA30008DDD2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		75F7F4C2195C1BA30008DDD2 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		75F7F4C4195C1BA30008DDD2 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		75F7F4C8195C1BA30008DDD2 /* KSFT_APITest4iOS-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "KSFT_APITest4iOS-Info.plist"; sourceTree = "<group>"; };
+		75F7F4CA195C1BA30008DDD2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		75F7F4CC195C1BA30008DDD2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		75F7F4CE195C1BA30008DDD2 /* KSFT_APITest4iOS-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "KSFT_APITest4iOS-Prefix.pch"; sourceTree = "<group>"; };
+		75F7F4CF195C1BA30008DDD2 /* KSAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KSAppDelegate.h; sourceTree = "<group>"; };
+		75F7F4D0195C1BA30008DDD2 /* KSAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KSAppDelegate.m; sourceTree = "<group>"; };
+		75F7F4D2195C1BA30008DDD2 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		75F7F4D8195C1BA40008DDD2 /* KSFT_APITest4iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KSFT_APITest4iOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		75F7F4D9195C1BA40008DDD2 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		75F7F4E1195C1BA40008DDD2 /* KSFT_APITest4iOSTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "KSFT_APITest4iOSTests-Info.plist"; sourceTree = "<group>"; };
+		75F7F4E3195C1BA40008DDD2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		75F7F4E5195C1BA40008DDD2 /* KSFT_APITest4iOSTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KSFT_APITest4iOSTests.m; sourceTree = "<group>"; };
+		75F7F4FB195C1C0E0008DDD2 /* event.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = event.cpp; sourceTree = "<group>"; };
+		75F7F4FC195C1C0E0008DDD2 /* event.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = event.h; sourceTree = "<group>"; };
+		75F7F4FD195C1C0E0008DDD2 /* KSViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KSViewController.h; sourceTree = "<group>"; };
+		75F7F4FE195C1C0E0008DDD2 /* KSViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = KSViewController.mm; sourceTree = "<group>"; };
+		75F7F4FF195C1C0E0008DDD2 /* KSViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KSViewController.xib; sourceTree = "<group>"; };
+		75F7F500195C1C0E0008DDD2 /* testKSMarketDataAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = testKSMarketDataAPI.h; sourceTree = "<group>"; };
+		75F7F501195C1C0E0008DDD2 /* testKSTradeAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = testKSTradeAPI.h; sourceTree = "<group>"; };
+		75F7F509195C1D930008DDD2 /* libstdc++.6.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libstdc++.6.dylib"; path = "usr/lib/libstdc++.6.dylib"; sourceTree = SDKROOT; };
+		75F7F50A195C1D930008DDD2 /* libstdc++.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libstdc++.dylib"; path = "usr/lib/libstdc++.dylib"; sourceTree = SDKROOT; };
+		75F7F50D195C1E790008DDD2 /* KSInterB2C.lkc */ = {isa = PBXFileReference; lastKnownFileType = file; path = KSInterB2C.lkc; sourceTree = "<group>"; };
+		75F7F510195C20150008DDD2 /* KSCosApi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KSCosApi.h; sourceTree = "<group>"; };
+		75F7F511195C20150008DDD2 /* KSCosApiDataType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KSCosApiDataType.h; sourceTree = "<group>"; };
+		75F7F512195C20150008DDD2 /* KSCosApiStruct.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KSCosApiStruct.h; sourceTree = "<group>"; };
+		75F7F513195C20150008DDD2 /* KSMdApiEx.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KSMdApiEx.h; sourceTree = "<group>"; };
+		75F7F514195C20150008DDD2 /* KSTraderApiEx.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KSTraderApiEx.h; sourceTree = "<group>"; };
+		75F7F515195C20150008DDD2 /* KSUserApiDataTypeEx.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KSUserApiDataTypeEx.h; sourceTree = "<group>"; };
+		75F7F516195C20150008DDD2 /* KSUserApiStructEx.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KSUserApiStructEx.h; sourceTree = "<group>"; };
+		75F7F517195C20150008DDD2 /* KSTradeAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KSTradeAPI.h; sourceTree = "<group>"; };
+		75F7F518195C20150008DDD2 /* KSMarketDataAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KSMarketDataAPI.h; sourceTree = "<group>"; };
+		75F7F519195C20B80008DDD2 /* KSInterB2C.lkc */ = {isa = PBXFileReference; lastKnownFileType = file; path = KSInterB2C.lkc; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		75F7F4BA195C1BA30008DDD2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7584B1C51965293B008742E7 /* libkslkc.a in Frameworks */,
+				7584B1C61965293B008742E7 /* libksft.a in Frameworks */,
+				75F7F50B195C1D930008DDD2 /* libstdc++.6.dylib in Frameworks */,
+				75F7F50C195C1D930008DDD2 /* libstdc++.dylib in Frameworks */,
+				75F7F4C3195C1BA30008DDD2 /* CoreGraphics.framework in Frameworks */,
+				75F7F4C5195C1BA30008DDD2 /* UIKit.framework in Frameworks */,
+				75F7F4C1195C1BA30008DDD2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75F7F4D5195C1BA40008DDD2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75F7F4DA195C1BA40008DDD2 /* XCTest.framework in Frameworks */,
+				75F7F4DC195C1BA40008DDD2 /* UIKit.framework in Frameworks */,
+				75F7F4DB195C1BA40008DDD2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		75F7F4B4195C1BA30008DDD2 = {
+			isa = PBXGroup;
+			children = (
+				75F7F4C6195C1BA30008DDD2 /* KSFT_APITest4iOS */,
+				75F7F4DF195C1BA40008DDD2 /* KSFT_APITest4iOSTests */,
+				75F7F4BF195C1BA30008DDD2 /* Frameworks */,
+				75F7F4BE195C1BA30008DDD2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		75F7F4BE195C1BA30008DDD2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				75F7F4BD195C1BA30008DDD2 /* KSFT_APITest4iOS.app */,
+				75F7F4D8195C1BA40008DDD2 /* KSFT_APITest4iOSTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		75F7F4BF195C1BA30008DDD2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7584B1C31965293B008742E7 /* libkslkc.a */,
+				7584B1C41965293B008742E7 /* libksft.a */,
+				75F7F509195C1D930008DDD2 /* libstdc++.6.dylib */,
+				75F7F50A195C1D930008DDD2 /* libstdc++.dylib */,
+				75F7F4C0195C1BA30008DDD2 /* Foundation.framework */,
+				75F7F4C2195C1BA30008DDD2 /* CoreGraphics.framework */,
+				75F7F4C4195C1BA30008DDD2 /* UIKit.framework */,
+				75F7F4D9195C1BA40008DDD2 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		75F7F4C6195C1BA30008DDD2 /* KSFT_APITest4iOS */ = {
+			isa = PBXGroup;
+			children = (
+				75F7F50F195C20150008DDD2 /* CTP */,
+				75F7F517195C20150008DDD2 /* KSTradeAPI.h */,
+				75F7F518195C20150008DDD2 /* KSMarketDataAPI.h */,
+				75F7F4FB195C1C0E0008DDD2 /* event.cpp */,
+				75F7F4FC195C1C0E0008DDD2 /* event.h */,
+				75F7F4FD195C1C0E0008DDD2 /* KSViewController.h */,
+				75F7F4FE195C1C0E0008DDD2 /* KSViewController.mm */,
+				75F7F4FF195C1C0E0008DDD2 /* KSViewController.xib */,
+				75F7F500195C1C0E0008DDD2 /* testKSMarketDataAPI.h */,
+				75F7F501195C1C0E0008DDD2 /* testKSTradeAPI.h */,
+				75F7F4CF195C1BA30008DDD2 /* KSAppDelegate.h */,
+				75F7F4D0195C1BA30008DDD2 /* KSAppDelegate.m */,
+				75F7F4D2195C1BA30008DDD2 /* Images.xcassets */,
+				75F7F4C7195C1BA30008DDD2 /* Supporting Files */,
+			);
+			path = KSFT_APITest4iOS;
+			sourceTree = "<group>";
+		};
+		75F7F4C7195C1BA30008DDD2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				75F7F519195C20B80008DDD2 /* KSInterB2C.lkc */,
+				75F7F4C8195C1BA30008DDD2 /* KSFT_APITest4iOS-Info.plist */,
+				75F7F4C9195C1BA30008DDD2 /* InfoPlist.strings */,
+				75F7F4CC195C1BA30008DDD2 /* main.m */,
+				75F7F4CE195C1BA30008DDD2 /* KSFT_APITest4iOS-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		75F7F4DF195C1BA40008DDD2 /* KSFT_APITest4iOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				75F7F4E5195C1BA40008DDD2 /* KSFT_APITest4iOSTests.m */,
+				75F7F4E0195C1BA40008DDD2 /* Supporting Files */,
+			);
+			path = KSFT_APITest4iOSTests;
+			sourceTree = "<group>";
+		};
+		75F7F4E0195C1BA40008DDD2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				75F7F50D195C1E790008DDD2 /* KSInterB2C.lkc */,
+				75F7F4E1195C1BA40008DDD2 /* KSFT_APITest4iOSTests-Info.plist */,
+				75F7F4E2195C1BA40008DDD2 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		75F7F50F195C20150008DDD2 /* CTP */ = {
+			isa = PBXGroup;
+			children = (
+				75F7F510195C20150008DDD2 /* KSCosApi.h */,
+				75F7F511195C20150008DDD2 /* KSCosApiDataType.h */,
+				75F7F512195C20150008DDD2 /* KSCosApiStruct.h */,
+				75F7F513195C20150008DDD2 /* KSMdApiEx.h */,
+				75F7F514195C20150008DDD2 /* KSTraderApiEx.h */,
+				75F7F515195C20150008DDD2 /* KSUserApiDataTypeEx.h */,
+				75F7F516195C20150008DDD2 /* KSUserApiStructEx.h */,
+			);
+			path = CTP;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		75F7F4BC195C1BA30008DDD2 /* KSFT_APITest4iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 75F7F4E9195C1BA40008DDD2 /* Build configuration list for PBXNativeTarget "KSFT_APITest4iOS" */;
+			buildPhases = (
+				75F7F4B9195C1BA30008DDD2 /* Sources */,
+				75F7F4BA195C1BA30008DDD2 /* Frameworks */,
+				75F7F4BB195C1BA30008DDD2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KSFT_APITest4iOS;
+			productName = KSFT_APITest4iOS;
+			productReference = 75F7F4BD195C1BA30008DDD2 /* KSFT_APITest4iOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		75F7F4D7195C1BA40008DDD2 /* KSFT_APITest4iOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 75F7F4EC195C1BA40008DDD2 /* Build configuration list for PBXNativeTarget "KSFT_APITest4iOSTests" */;
+			buildPhases = (
+				75F7F4D4195C1BA40008DDD2 /* Sources */,
+				75F7F4D5195C1BA40008DDD2 /* Frameworks */,
+				75F7F4D6195C1BA40008DDD2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				75F7F4DE195C1BA40008DDD2 /* PBXTargetDependency */,
+			);
+			name = KSFT_APITest4iOSTests;
+			productName = KSFT_APITest4iOSTests;
+			productReference = 75F7F4D8195C1BA40008DDD2 /* KSFT_APITest4iOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		75F7F4B5195C1BA30008DDD2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = KS;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Gao, Song (2)";
+				TargetAttributes = {
+					75F7F4D7195C1BA40008DDD2 = {
+						TestTargetID = 75F7F4BC195C1BA30008DDD2;
+					};
+				};
+			};
+			buildConfigurationList = 75F7F4B8195C1BA30008DDD2 /* Build configuration list for PBXProject "KSFT_APITest4iOS" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 75F7F4B4195C1BA30008DDD2;
+			productRefGroup = 75F7F4BE195C1BA30008DDD2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				75F7F4BC195C1BA30008DDD2 /* KSFT_APITest4iOS */,
+				75F7F4D7195C1BA40008DDD2 /* KSFT_APITest4iOSTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		75F7F4BB195C1BA30008DDD2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75F7F4CB195C1BA30008DDD2 /* InfoPlist.strings in Resources */,
+				75F7F51A195C20B80008DDD2 /* KSInterB2C.lkc in Resources */,
+				75F7F504195C1C0E0008DDD2 /* KSViewController.xib in Resources */,
+				75F7F4D3195C1BA30008DDD2 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75F7F4D6195C1BA40008DDD2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75F7F4E4195C1BA40008DDD2 /* InfoPlist.strings in Resources */,
+				75F7F50E195C1E790008DDD2 /* KSInterB2C.lkc in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		75F7F4B9195C1BA30008DDD2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75F7F503195C1C0E0008DDD2 /* KSViewController.mm in Sources */,
+				75F7F4D1195C1BA30008DDD2 /* KSAppDelegate.m in Sources */,
+				75F7F502195C1C0E0008DDD2 /* event.cpp in Sources */,
+				75F7F4CD195C1BA30008DDD2 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75F7F4D4195C1BA40008DDD2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75F7F4E6195C1BA40008DDD2 /* KSFT_APITest4iOSTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		75F7F4DE195C1BA40008DDD2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 75F7F4BC195C1BA30008DDD2 /* KSFT_APITest4iOS */;
+			targetProxy = 75F7F4DD195C1BA40008DDD2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		75F7F4C9195C1BA30008DDD2 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				75F7F4CA195C1BA30008DDD2 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		75F7F4E2195C1BA40008DDD2 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				75F7F4E3195C1BA40008DDD2 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		75F7F4E7195C1BA40008DDD2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		75F7F4E8195C1BA40008DDD2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		75F7F4EA195C1BA40008DDD2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "KSFT_APITest4iOS/KSFT_APITest4iOS-Prefix.pch";
+				INFOPLIST_FILE = "KSFT_APITest4iOS/KSFT_APITest4iOS-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"../../iOS-Simulator",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		75F7F4EB195C1BA40008DDD2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "KSFT_APITest4iOS/KSFT_APITest4iOS-Prefix.pch";
+				INFOPLIST_FILE = "KSFT_APITest4iOS/KSFT_APITest4iOS-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"../../iOS-Simulator",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		75F7F4ED195C1BA40008DDD2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/KSFT_APITest4iOS.app/KSFT_APITest4iOS";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "KSFT_APITest4iOS/KSFT_APITest4iOS-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "KSFT_APITest4iOSTests/KSFT_APITest4iOSTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		75F7F4EE195C1BA40008DDD2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/KSFT_APITest4iOS.app/KSFT_APITest4iOS";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "KSFT_APITest4iOS/KSFT_APITest4iOS-Prefix.pch";
+				INFOPLIST_FILE = "KSFT_APITest4iOSTests/KSFT_APITest4iOSTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		75F7F4B8195C1BA30008DDD2 /* Build configuration list for PBXProject "KSFT_APITest4iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75F7F4E7195C1BA40008DDD2 /* Debug */,
+				75F7F4E8195C1BA40008DDD2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		75F7F4E9195C1BA40008DDD2 /* Build configuration list for PBXNativeTarget "KSFT_APITest4iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75F7F4EA195C1BA40008DDD2 /* Debug */,
+				75F7F4EB195C1BA40008DDD2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		75F7F4EC195C1BA40008DDD2 /* Build configuration list for PBXNativeTarget "KSFT_APITest4iOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75F7F4ED195C1BA40008DDD2 /* Debug */,
+				75F7F4EE195C1BA40008DDD2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 75F7F4B5195C1BA30008DDD2 /* Project object */;
+}
